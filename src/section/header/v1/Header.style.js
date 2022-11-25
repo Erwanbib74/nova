@@ -52,9 +52,9 @@ const NavWrapper = styled.nav`
   }
 
   .bithu_menu_list {
-    margin-left: 65px;
-    margin-right: 96px;
-    max-width: 514px;
+    margin-left: 25px;
+    margin-right: 40px;
+    max-width: 650px;
     min-width: 409px;
     width: 100%;
     ul {
@@ -66,7 +66,7 @@ const NavWrapper = styled.nav`
       padding: 0;
 
       li {
-        position: relative;
+        position: center;
         cursor: pointer;
 
         a {

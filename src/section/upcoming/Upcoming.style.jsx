@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bgImg from "assets/images/bg/coming-soon-bg.png";
+import bgImg from "assets/images/Novabackground.png";
 
 const UpcomingStyleWrapper = styled.section`
   min-height: 100vh;

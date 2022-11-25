@@ -133,7 +133,7 @@ const Mint = () => {
             <div className="mint_right_content">
               <div className="content_header">
                 <h4>
-                  WHITELIST : SOLDOUT
+                  
                   <span>
                     <img src={checkIcon.src} alt="icon" />
                   </span>

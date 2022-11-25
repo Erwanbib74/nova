@@ -10,8 +10,8 @@ const RoadMap = () => {
       <div className="container road_map_container">
         <SectionTitle
           isCenter={true}
-          title="Roadmap"
-          subtitle="Our Goals"
+          title="Feuille de route"
+          subtitle="Nos objectifs"
           className="text-center"
         />
 

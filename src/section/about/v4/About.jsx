@@ -3,7 +3,7 @@ import SectionTitle from "common/sectionTitle";
 import AboutInfoCardList from "../aboutInfoCardList";
 
 import data from "assets/data/about/aboutv1";
-import aboutThumb1 from "assets/images/NFT3.png";
+import aboutThumb1 from "assets/images/nft/FrameGold.png";
 
 import AboutStyleWrapper from "./About.style";
 

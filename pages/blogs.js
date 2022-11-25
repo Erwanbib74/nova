@@ -28,8 +28,6 @@ export default function Blogs() {
       <Header />
       <PageHeader />
       <BlogList />
-      <CTA />
-      <Footer />
-    </Layout>
+      </Layout>
   );
 }

@@ -115,11 +115,15 @@ const MintStyleWrapper = styled.section`
 
   .mint_items {
     margin-top: 50px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+
 
     .mint_item_card {
       background: rgba(36, 44, 52, 0.7);
       backdrop-filter: blur(10px);
+      perspective: 1000px; /* Remove this if you don't want the 3D effect */
       padding: 30px;
+  
       position: relative;
       color: #ffffff;
       text-align: center;
@@ -137,6 +141,8 @@ const MintStyleWrapper = styled.section`
         color: #000000;
         text-transform: uppercase;
       }
+
+      
       .mint_thumb {
         img {
           width: 100%;

@@ -10,32 +10,18 @@ const PageHeader = () => {
           <div className="col-md-5">
             <div className="breadcrumb_area">
               <div className="breadcrumb_menu">
-                <Link href="# ">
-                  <a>Home</a>
-                </Link>
-                <span>.</span> Latest blog
-                <img
-                  className="heading_shape"
-                  src={titleShape.src}
-                  alt="bithu nft heading shape"
-                />
+                
+               
               </div>
-              <h2 className="breadcrumb_title text-uppercase">Latest blog</h2>
+              <h2 className="breadcrumb_title text-uppercase">Levées de fond</h2>
             </div>
           </div>
 
           <div className="col-md-7">
             <div className="breadcrumb_form">
               <form onSubmit={(e) => e.preventDefault()}>
-                <input
-                  type="text"
-                  id="Search"
-                  name="search"
-                  placeholder="Search by articles , categories"
-                />
-                <button>
-                  <FiSearch />
-                </button>
+                
+                
               </form>
             </div>
           </div>

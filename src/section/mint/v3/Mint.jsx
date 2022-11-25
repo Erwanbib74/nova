@@ -6,6 +6,7 @@ import MintStyleWrapper from "./Mint.style";
 import checkIcon from "assets/images/icon/mint-right-text-icon.svg";
 import data from "assets/data/mintItems";
 
+
 const Mint = () => {
   const counterSettings = {
     count: 5432560,
@@ -34,7 +35,7 @@ const Mint = () => {
             </div>
             <div className="col-md-4">
               <h4 className="sale_status text-right">
-                WHITELIST : SOLDOUT
+                NFT NOVA BRIDGE
                 <span>
                   <img src={checkIcon.src} alt="icon" />
                 </span>
@@ -43,7 +44,11 @@ const Mint = () => {
           </div>
         </div>
 
+
+
         <div className="mint_items">
+        <div className="flip-card-inner">
+        <div className="flip-card-front">
           <div className="row mint_items_row">
             {data?.map((item, idx) => (
               <div key={idx} className="col-md-4">
@@ -52,21 +57,27 @@ const Mint = () => {
                   <div className="mint_thumb">
                     <img src={item.thumb.src} alt="mint thumb" />
                   </div>
+                 
 
                   <div className="item_content">
                     <h4>{item.title}</h4>
                     <span className="access_text">{item.accessText}</span>
-                    <span>Unti Price: {item.unitPrice}</span>
-                    <span>Total: {item.totalPrice}</span>
+                    <p>Yuka est une application qui permet de scanner les produits alimentaires {item.unitPrice}</p>
+                    <br></br>
+                    <span>Objectif : Financer sa campagne de développement</span>
+                   <br></br>
+                    <span>Dividendes : 10% / an {item.unitPrice}</span>
+                    
+                    <span>Chance d'obtention: {item.totalPrice}</span>
                   </div>
 
-                  <Button lg variant="mint">
-                    {item.btnText}
-                  </Button>
+                 
                 </div>
               </div>
             ))}
           </div>
+        </div>
+        </div>
         </div>
       </div>
     </MintStyleWrapper>

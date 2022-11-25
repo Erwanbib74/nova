@@ -49,30 +49,41 @@ const Header = () => {
                 <ul>
                   <li>
                     <Link href="#home">
-                      <a>Home</a>
+                      <a>Accueil</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="#about">
-                      <a>About</a>
+                      <a>À propos</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="#roadmap">
-                      <a>Roadmap</a>
+                      <a>Feuille de route</a>
                     </Link>
                   </li>
+                  <li>
+                  <Link href="/blogs">
+                    <a>Levée de fond</a>
+                  </Link>
+                </li>
+
+                <li>
+                  <Link href="/coming-soon">
+                    <a>Marketplace</a>
+                  </Link>
+                </li>
                  
                   <li>
                     <Link href="#">
                       <a>Blog</a>
                     </Link>
                    
+                   
                       
 
                         
-                       
-                  </li>
+                 </li>
                 </ul>
               </div>
               <div className="bithu_menu_btns">
@@ -80,7 +91,7 @@ const Header = () => {
                   <MdNotes />
                 </button>
                 <Button sm variant="outline" className="join_btn">
-                  <FaDiscord /> Join
+                  <FaDiscord /> Discord
                 </Button>
                 <Button
                   sm
@@ -88,7 +99,7 @@ const Header = () => {
                   className="connect_btn"
                   onClick={() => walletModalHandle()}
                 >
-                  <FaWallet /> Connect
+                  <FaWallet /> Connection
                 </Button>
               </div>
             </div>

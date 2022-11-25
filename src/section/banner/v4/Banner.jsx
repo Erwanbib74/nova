@@ -55,14 +55,14 @@ const Banner = () => {
               </div>
 
               <div className="coin_info">
-                <h4>Stage 1, Public Sale</h4>
-                <h4>JANUARY 14TH 2023: 12:00PM EST</h4>
+                <h4>Vente publique</h4>
+                <h4>14 JANVIER 2023: 12:00 HEURE</h4>
               </div>
 
               <div className="banner_buttons">
                 <Button lg variant="mint" onClick={() => mintModalHandle()}>
                   {" "}
-                  Mint now
+                  Mint 
                 </Button>
                 
               </div>

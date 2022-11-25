@@ -21,14 +21,8 @@ const data = [
   
   
   
-  {
-    icon: <FaTelegramPlane />,
-    url: "#",
-  },
-  {
-    thumb: mediumIcon,
-    url: "#",
-  },
+  
+  
 ];
 
 export default data;

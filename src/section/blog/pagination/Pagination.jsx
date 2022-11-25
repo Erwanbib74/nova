@@ -12,13 +12,13 @@ const Pagination = () => {
         </a>
       </Link>
       <Link href="# ">
-        <a>1</a>
+      <a className="active">1</a>
       </Link>
       <Link href="# ">
         <a>2</a>
       </Link>
       <Link href="# ">
-        <a className="active">3</a>
+        <a>3</a>
       </Link>
       <Link href="# ">
         <a>4</a>

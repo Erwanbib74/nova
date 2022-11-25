@@ -33,12 +33,12 @@ const MetamaskModal = () => {
 
               </div>
               <div className="modal_bottom_text">
-                By connecting your wallet, you agree to our
+              En connectant votre porte-monnaie, vous acceptez nos
                 <Link href="# ">
-                  <a>Terms of Service</a>
+                  <a>Conditions d'utilisation</a>
                 </Link>
                 <Link href="#">
-                  <a>Privacy Policy</a>
+                  <a>Politique de confidentialité</a>
                 </Link>
               </div>
             </div>

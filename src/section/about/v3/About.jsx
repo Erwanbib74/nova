@@ -27,15 +27,11 @@ const About = () => {
               <div className="ab-content">
                 {artists?.map((item, i) => (
                   <div key={i} className="ab-item-box mr-30">
-                    <img
-                      className="author-thumbnail"
-                      src={item.thumb.src}
-                      alt="bithu nft about"
-                    />
+                    
                     <div className="ab-text pt-20">
                       <h5>
                         {item.name}
-                        <img src={item.icon.src} alt="bithu nft about icon" />
+                        
                       </h5>
                     </div>
                     <span>{item.role}</span>

@@ -5,7 +5,7 @@ import Navigation from "./Navigation";
 import Button from "common/button";
 import HeaderStyleWrapper from "./Header.style";
 
-import logo from "assets/images/mint-logo.png";
+import logo from "assets/images/bon.png";
 import menuIcon from "assets/images/icon/mint-menu_icon.svg";
 
 const Header = () => {
@@ -36,8 +36,14 @@ const Header = () => {
         <div className="header_wrapper">
           <div className="header_left">
             <div className="logo">
+            
+            
               <img src={logo.src} alt="logo" />
+             
             </div>
+            
+            
+              
           </div>
           <div className="header_right">
             <div className="bithu_menu_btns">
@@ -47,15 +53,9 @@ const Header = () => {
                 className="connect_btn"
                 onClick={() => walletModalHandle()}
               >
-                <FaWallet /> Connect
+                <FaWallet /> Connection
               </Button>
-              <Button
-                variant="outline"
-                className="menu_btn"
-                onClick={() => handleMobileMenu()}
-              >
-                <img src={menuIcon.src} alt="menu bar icon" />
-              </Button>
+              
             </div>
           </div>
         </div>

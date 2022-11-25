@@ -1,149 +1,64 @@
-import thumb1 from "assets/images/blog/blog-img.png";
-import thumb2 from "assets/images/blog/blog-img2.png";
-import thumb3 from "assets/images/blog/blog-img3.png";
-import thumb4 from "assets/images/blog/blog-img4.png";
-import thumb5 from "assets/images/blog/blog-img5.png";
-import thumb6 from "assets/images/blog/blog-img6.png";
-import thumb7 from "assets/images/blog/blog-img7.png";
-import thumb8 from "assets/images/blog/blog-img8.png";
-import thumb9 from "assets/images/blog/blog-img9.png";
+import thumb1 from "assets/images/nft/yuka-dribbble.gif";
+import thumb2 from "assets/images/nft/yuka-dribbble.gif";
+import thumb3 from "assets/images/nft/yuka-dribbble.gif";
+import thumb4 from "assets/images/nft/yuka-dribbble.gif";
+import thumb5 from "assets/images/nft/yuka-dribbble.gif";
+import thumb6 from "assets/images/nft/yuka-dribbble.gif";
+import thumb7 from "assets/images/nft/yuka-dribbble.gif";
+import thumb8 from "assets/images/nft/yuka-dribbble.gif";
+import thumb9 from "assets/images/nft/yuka-dribbble.gif";
 
 const data = {
   posts: [
     {
       thumbnail: thumb1,
-      author: "INNA MOUAZ",
-      title: "How to Create Your 1st Crypto NFTs",
+      author: "Société Yuka",
+      title: "Yuka",
       excerpt:
-        "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled",
-      timeStamp: "24 FEB, 2022",
+        "Yuka est une application mobile pour iOS et Android, développée par la société Yuca SAS, qui permet de scanner les produits alimentaires et cosmétiques en vue d’obtenir des informations détaillées sur l’impact d'un produit sur la santé.",
+      
       categories: [
         {
-          title: "NFT",
-          url: "#",
+          title: "Levée de fond",
+         
         },
       ],
     },
     {
       thumbnail: thumb2,
       author: "INNA MOUAZ",
-      title: "The New World is All about Metaverse",
+      title: "Yuka",
       excerpt:
-        "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled",
-      timeStamp: "24 FEB, 2022",
+        "Yuka est une application mobile pour iOS et Android, développée par la société Yuca SAS, qui permet de scanner les produits alimentaires et cosmétiques en vue d’obtenir des informations détaillées sur l’impact d'un produit sur la santé.",
+      
       categories: [
         {
-          title: "GAMMING",
-          url: "#",
+          title: "Levée de fond",
+          
         },
       ],
     },
     {
       thumbnail: thumb3,
       author: "INNA MOUAZ",
-      title: "It’s the Great Chance to Invest in NFT",
+      title: "Yuka",
       excerpt:
-        "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled",
-      timeStamp: "24 FEB, 2022",
+      "Yuka est une application mobile pour iOS et Android, développée par la société Yuca SAS, qui permet de scanner les produits alimentaires et cosmétiques en vue d’obtenir des informations détaillées sur l’impact d'un produit sur la santé.",
+      
       categories: [
         {
-          title: "METAVERSE",
-          url: "#",
+          title: "Levée de fond",
+         
         },
-        {
-          title: "NFT",
-          url: "#",
-        },
+        
       ],
     },
-    {
-      thumbnail: thumb4,
-      author: "INNA MOUAZ",
-      title: "Why You Should mint NFT in MintO",
-      excerpt:
-        "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled",
-      timeStamp: "24 FEB, 2022",
-      categories: [
-        {
-          title: "META",
-          url: "#",
-        },
-      ],
-    },
-    {
-      thumbnail: thumb5,
-      author: "INNA MOUAZ",
-      title: "Make 100% Profite by Minting NFT",
-      excerpt:
-        "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled",
-      timeStamp: "24 FEB, 2022",
-      categories: [
-        {
-          title: "IGO",
-          url: "#",
-        },
-      ],
-    },
-    {
-      thumbnail: thumb6,
-      author: "INNA MOUAZ",
-      title: "Sell Your Digital Art on the Martekplace",
-      excerpt:
-        "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled",
-      timeStamp: "24 FEB, 2022",
-      categories: [
-        {
-          title: "CRYPTO",
-          url: "#",
-        },
-      ],
-    },
-    {
-      thumbnail: thumb7,
-      author: "INNA MOUAZ",
-      title: "Metaverse Gaming NFT on The Way",
-      excerpt:
-        "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled",
-      timeStamp: "24 FEB, 2022",
-      categories: [
-        {
-          title: "Metaverse",
-          url: "#",
-        },
-      ],
-    },
-    {
-      thumbnail: thumb8,
-      author: "INNA MOUAZ",
-      title: "We Publish Our Projects Roadmap",
-      excerpt:
-        "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled",
-      timeStamp: "24 FEB, 2022",
-      categories: [
-        {
-          title: "NFT",
-          url: "#",
-        },
-        {
-          title: "GAMMING",
-          url: "#",
-        },
-      ],
-    },
-    {
-      thumbnail: thumb9,
-      author: "INNA MOUAZ",
-      title: "Purchase Your 1st Crypto NFTs Here",
-      excerpt:
-        "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled",
-      timeStamp: "24 FEB, 2022",
-      categories: [
-        {
-          title: "crypto",
-          url: "#",
-        },
-      ],
-    },
+    
+    
+    
+    
+    
+    
   ],
 };
 

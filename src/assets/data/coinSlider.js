@@ -3,7 +3,7 @@ import shapeIcon from "assets/images/icon/mint_live_icon.svg";
 const data = [
   {
     icon: shapeIcon,
-    text: "Mint Is Live",
+    text: "Mint Nova",
   },
   {
     icon: shapeIcon,
@@ -11,7 +11,7 @@ const data = [
   },
   {
     icon: shapeIcon,
-    text: "Mint Is Live",
+    text: "Mint Nova",
   },
   {
     icon: shapeIcon,
@@ -19,7 +19,7 @@ const data = [
   },
   {
     icon: shapeIcon,
-    text: "Mint Is Live",
+    text: "Mint Nova",
   },
   {
     icon: shapeIcon,
@@ -27,7 +27,7 @@ const data = [
   },
   {
     icon: shapeIcon,
-    text: "Mint Is Live",
+    text: "Mint Nova",
   },
   {
     icon: shapeIcon,
@@ -35,7 +35,7 @@ const data = [
   },
   {
     icon: shapeIcon,
-    text: "Mint Is Live",
+    text: "Mint Nova",
   },
   {
     icon: shapeIcon,
@@ -43,11 +43,11 @@ const data = [
   },
   {
     icon: shapeIcon,
-    text: "Mint Is Live",
+    text: "Mint Nova",
   },
   {
     icon: shapeIcon,
-    text: "Presale End",
+    text: "Mint Nova",
   },
 ];
 

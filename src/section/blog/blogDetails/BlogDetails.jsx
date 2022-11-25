@@ -27,7 +27,7 @@ const BlogDetails = () => {
             {/* post details col  */}
             <div className="col-lg-8 col-md-12">
               <div className="post_thumbnail">
-                <img src={postThumb.src} alt="bithu nft blog" />
+                
               </div>
               <div className="blog_post_meta">
                 <Link href="# ">

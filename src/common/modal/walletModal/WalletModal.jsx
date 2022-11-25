@@ -27,14 +27,14 @@ const WalletModal = () => {
         <div className="mint_modal_box">
           <div className="mint_modal_content">
             <div className="modal_header">
-              <h2>CONNECT WALLET</h2>
+              <h2>CONNECTION WALLET</h2>
               <button onClick={() => walletModalHandle()}>
                 <FiX />
               </button>
             </div>
             <div className="modal_body text-center">
               <p>
-                Please select a wallet to connect for start Minting your NFTs
+              Veuillez sélectionner un porte-monnaie à connecter pour commencer à Minter vos NFTs.
               </p>
               <div className="wallet_list">
                 <Link href="# ">
@@ -76,12 +76,12 @@ const WalletModal = () => {
                 </Link>
               </div>
               <div className="modal_bottom_text">
-                By connecting your wallet, you agree to our
+              En connectant votre porte-monnaie, vous acceptez nos
                 <Link href="# ">
-                  <a>Terms of Service</a>
+                  <a>Conditions d'utilisation</a>
                 </Link>
                 <Link href="# ">
-                  <a>Privacy Policy</a>
+                  <a>Politique de confidentialité</a>
                 </Link>
               </div>
             </div>

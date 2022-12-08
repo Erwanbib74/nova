@@ -1,6 +1,6 @@
 import Head from "next/head";
 import GlobalStyles from "assets/styles/GlobalStyles";
-import favIcon from "assets/images/fav.png";
+import favIcon from "assets/images/nft/NOVAFOND.png";
 const Layout = ({ children }) => {
   return (
     <>
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
         <meta charSet="utf-8" />
         <title>
           {" "}
-          Bithu - NFT Minting/Collection Landing Page react-next js Template
+          Nova Bridge
         </title>
         <meta name="description" content="" />
         <link rel="shortcut icon" type="image/x-icon" href={favIcon.src} />
